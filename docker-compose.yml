@@ -12,7 +12,7 @@ services:
       EULA: "TRUE"
       TYPE: "PAPER"
       ENABLE_RCON: "true"
-      RCON_PASSWORD: "testing"
+      RCON_PASSWORD: "minecraft"
       RCON_PORT: 28016
       # enable env variable replacement
       REPLACE_ENV_VARIABLES: "TRUE"
@@ -32,11 +32,11 @@ services:
       RWA_PASSWORD: passw0rd
     volumes:
       - "./data/rcon:/opt/rcon-web-admin/db"
-      - "rcon:/opt/rcon-web-admin/db"
+#      - "rcon:/opt/rcon-web-admin/db"
 
-volumes:
-  mc: "./data/mc"
-  rcon: "./data/rcon"
+# volumes:
+#   mc: "./data/mc"
+#   rcon: "./data/rcon"
 
 secrets:
   db_password:
