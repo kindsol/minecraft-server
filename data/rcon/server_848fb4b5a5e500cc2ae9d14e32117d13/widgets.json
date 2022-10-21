@@ -1,0 +1,14 @@
+{
+  "list": [
+    {
+      "id": "rwa-console",
+      "position": 0,
+      "size": "large",
+      "options": {},
+      "storage": {
+        "logfile.id": 1,
+        "logfile.id.lifetime": -1
+      }
+    }
+  ]
+}

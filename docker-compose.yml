@@ -29,7 +29,13 @@ services:
       - "4326:4326"
       - "4327:4327"
     environment:
-      RWA_PASSWORD: passw0rd
+      RWA_USERNAME: admin
+      RWA_PASSWORD: admin
+      RWA_ADMIN: "TRUE"
+      # is referring to the hostname of 'mc' compose service below
+      RWA_RCON_HOST: minecraft
+      # needs to match the password configured for the container, which is 'minecraft' by default
+      RWA_RCON_PASSWORD: minecraft
     volumes:
       - "./data/rcon:/opt/rcon-web-admin/db"
 #      - "rcon:/opt/rcon-web-admin/db"

@@ -1,15 +1,15 @@
 {
-  "cecdc6d317ed73e52fa4963f7172ea52": {
-    "id": "cecdc6d317ed73e52fa4963f7172ea52",
+  "848fb4b5a5e500cc2ae9d14e32117d13": {
+    "id": "848fb4b5a5e500cc2ae9d14e32117d13",
     "game": "minecraft",
     "name": "minecraft",
-    "host": "127.0.0.1",
+    "host": "minecraft",
     "users": [
       "admin"
     ],
     "web": false,
     "active": true,
-    "rcon_port": 25575,
-    "rcon_password": ""
+    "rcon_port": 28016,
+    "rcon_password": "minecraft"
   }
 }

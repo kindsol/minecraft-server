@@ -1,10 +1,10 @@
 {
   "3030716a9718b469e2e2123da0f1eb6d": {
-    "password": "6e04450a0033e064eabcae9884b90c67",
+    "password": "3030716a9718b469e2e2123da0f1eb6d",
     "id": "3030716a9718b469e2e2123da0f1eb6d",
     "username": "admin",
     "readonlyoptions": false,
-    "admin": false,
-    "loginHash": "3bf27b4ffd661975b1dc516c3e21a0b181bff9560e3890b05aac4847a4984adf"
+    "admin": true,
+    "loginHash": "cad2c48a676fa8b26cddf409252d866dfe36b8a70b2b4d65e63cd4e74d333da0"
   }
 }
